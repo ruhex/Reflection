@@ -49,13 +49,18 @@ namespace ConsoleApp17
         }
     }
 
-    class Barsik
+    class Cat
+    {
+        public string Name { get; set; }
+    }
+
+    class Barsik : Cat
     {
         public string test_1 { get; set; }
         public string barsik_test_2 { get; set; }
     }
 
-    class Myrzik
+    class Myrzik : Cat
     {
         public string test_1 { get; set; }
         public string myrzik_test_2 { get; set; }
